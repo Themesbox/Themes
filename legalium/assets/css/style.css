@@ -1,4 +1,7 @@
 .intro {
+    background-image: url('../img/bg.jpg');
+    background-position: center center;
+    background-size: cover;
     height: 600px;
 }
 @media (max-width: 767px) {
