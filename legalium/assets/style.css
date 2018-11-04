@@ -1,1 +1,9 @@
-hdhdfhdfh
+.intro {
+    height: 600px;
+}
+@media (max-width: 767px) {
+    
+     .intro {
+         height: 400px;
+     }
+}
