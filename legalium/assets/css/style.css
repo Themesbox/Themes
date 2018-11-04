@@ -4,6 +4,9 @@
     background-size: cover;
     height: 760px;
 }
+.intro .icon-strategy {
+    font-size: 48px;
+}
 @media (max-width: 767px) {
     
      .intro {
