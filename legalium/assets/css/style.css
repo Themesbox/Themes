@@ -10,19 +10,3 @@
          height: 400px;
      }
 }
-
-
-
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-.icon-lightbulb {
-  width: 0.6875em;
-  color: red;
-  font-size: 48px;
-}
