@@ -1,6 +1,6 @@
 .intro {
     background-image: url('../img/bg.jpg');
-    background-position: center center;
+    background-position: top center;
     background-size: cover;
     height: 600px;
 }
