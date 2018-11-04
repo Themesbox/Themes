@@ -10,7 +10,7 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
-    height: 760px;
+    height: 100vh;
 }
 .intro .icon-strategy {
     font-size: 70px;
@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
 @media (max-width: 767px) {
     
      .intro {
-         height: 400px;
+         height: 80vh;
      }
 }
 
