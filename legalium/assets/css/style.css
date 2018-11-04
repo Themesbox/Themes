@@ -9,6 +9,7 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
     background-image: url('../img/bg.jpg');
     background-position: top center;
     background-size: cover;
+    background-attachment: fixed;
     height: 760px;
 }
 .intro .icon-strategy {
