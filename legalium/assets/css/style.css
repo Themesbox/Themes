@@ -8,7 +8,7 @@ h1,h2,h3,h4,h5,h6,.navbar-brand {
 h5 {
    text-shadow: none; 
    border-bottom: 1px dotted #666;
-   padding-bottom: 5px;
+   padding-bottom: 7px;
 } 
 .intro {
     background-image: url('../img/bg.jpg');
