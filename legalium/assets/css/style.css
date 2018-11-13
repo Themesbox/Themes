@@ -26,9 +26,6 @@ h5 {
 .icon-trophy, .icon-globe, .icon-lightbulb, .icon-hourglass, .icon-genius, .icon-anchor {
     font-size: 40px;
     color: #ccc;
-    position:absolute;
-    margin-bottom: -100px;
-    z-index: -1;
 }
 .lead {
     font-weight: 300;
