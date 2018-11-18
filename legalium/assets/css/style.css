@@ -23,7 +23,7 @@ h5 {
 .intro h1 {
     text-shadow: 1px 1px 1px #444;
 }
-.icon-trophy, .icon-globe, .icon-lightbulb, .icon-hourglass, .icon-genius, .icon-anchor, .icon-chat {
+.icon-trophy, .icon-globe, .icon-lightbulb, .icon-hourglass, .icon-genius, .icon-anchor, .icon-chat, .icon-envelope, .icon-map-pin {
     font-size: 40px;
     color: #bbb;
 }
