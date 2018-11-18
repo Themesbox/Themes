@@ -40,11 +40,11 @@ h5 {
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?tscvna');
-  src:  url('../fonts/icomoon.eot?tscvna#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?tscvna') format('truetype'),
-    url('../fonts/icomoon.woff?tscvna') format('woff'),
-    url('../fonts/icomoon.svg?tscvna#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ciik4q');
+  src:  url('fonts/icomoon.eot?ciik4q#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ciik4q') format('truetype'),
+    url('fonts/icomoon.woff?ciik4q') format('woff'),
+    url('fonts/icomoon.svg?ciik4q#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -70,6 +70,9 @@ h5 {
 .icon-trophy:before {
   content: "\e023";
 }
+.icon-envelope:before {
+  content: "\e028";
+}
 .icon-lightbulb:before {
   content: "\e030";
 }
@@ -84,6 +87,9 @@ h5 {
 }
 .icon-genius:before {
   content: "\e046";
+}
+.icon-map-pin:before {
+  content: "\e047";
 }
 .icon-chat:before {
   content: "\e049";
