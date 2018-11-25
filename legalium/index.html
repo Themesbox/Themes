@@ -16,7 +16,7 @@
    
 <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-transparent">
  <div class="container">
-  <a class="navbar-brand" href="#">Legalium</a>
+  <a class="navbar-brand" href="#" id="brand">Legalium</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -175,7 +175,7 @@
        $("html, body").animate({ scrollTop: $($(this).attr('href')).offset().top - 56}, 600); return false;
      }); 
       
-     $(".navbar-brand").click(function () {
+     $("#brand").click(function () {
        $("html, body").animate({ scrollTop: 0 }, 600); return false;
      }); 
     </script>
