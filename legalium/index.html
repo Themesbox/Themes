@@ -184,6 +184,7 @@
       
      $('a[href*="#"]').click(function(el) {
        el.preventDefault();
+       $(this.parentNode).addClass('active');
        $("html, body").animate({ scrollTop: $($(this).attr('href')).offset().top - 56}, 700); return false;
      }); 
       
