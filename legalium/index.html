@@ -164,18 +164,22 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   
     <script src="assets/js/navbar.js"></script>
-    
-    <script src="https://cdn.rawgit.com/aslamanver/jQuery.scrollSpeed/d89c1272/jQuery.scrollSpeed.js"></script>
-    
+    <script src="assets/js/scroll.js"></script>
     <script>
-      $(function() {  
-
-    // Default
-    jQuery.scrollSpeed(100, 800);
-    
-    
-   });
+      $("html").easeScroll({
+  frameRate: 60,
+  animationTime: 1000,
+  stepSize: 120,
+  pulseAlgorithm: !0,
+  pulseScale: 8,
+  pulseNormalize: 1,
+  accelerationDelta: 20,
+  accelerationMax: 1,
+  keyboardSupport: !0,
+  arrowScroll: 50
+});
     </script>
+    
     
   </body>
 </html>
