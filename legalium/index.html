@@ -183,6 +183,8 @@
     <script>
       
      $('a[href*="#"]').click(function(el) {
+       var active = $("li[class*='nav-item active']");
+       active.removeClass('active');
        el.preventDefault();
        $(this.parentNode).addClass('active');
        $("html, body").animate({ scrollTop: $($(this).attr('href')).offset().top - 56}, 700); return false;
