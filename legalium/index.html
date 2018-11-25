@@ -181,14 +181,11 @@
     </script>
     
     <script>
-  $('a[href*="#"]').click(function (el) {
-  el.preventDefault();
-
-  $('html, body').animate({
-    scrollTop: $($(this).attr('href')).offset().top
-  }, 500, 'linear');
-});
       
+     $('a[href*="#"]').click(function(el) {
+       el.preventDefault();
+       $("html, body").animate({ scrollTop: $($(this).attr('href')).offset().top}, 600, 'linear'); return false;
+     }); 
       
     </script>
     
