@@ -27,7 +27,7 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item scroll_to">
+      <li class="nav-item">
         <a class="nav-link" href="#services">Services</a>
       </li>
       <li class="nav-item">
@@ -181,13 +181,13 @@
     </script>
     
     <script>
-  $(".scroll_to").click(function(e){
-	var jump = $(this).attr("href");
-	var new_position = $(jump).offset();
-	$("html, body").stop().animate({ scrollTop: new_position.top }, 500);
-	e.preventDefault();
+  $('a[href*="#"]').on('click', function (el) {
+  el.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $($(this).attr('href')).offset().top
+  }, 500, 'linear');
 });
-      
       
       
     </script>
