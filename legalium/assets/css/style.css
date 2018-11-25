@@ -11,10 +11,10 @@ h5 {
    padding-bottom: 7px;
 } 
 .navbar {
-    -webkit-transition: 500ms linear 0.3s;
-    -moz-transition: 500ms linear 0.3s;
-    -o-transition: 500ms linear 0.3s;
-    transition: 500ms linear 0.3s;
+    -webkit-transition: all 400ms linear 0.3s;
+    -moz-transition: all 400ms linear 0.3s;
+    -o-transition: all 400ms linear 0.3s;
+    transition: all 400ms linear 0.3s;
 }
 .intro {
     background-image: url('../img/bg.jpg');
