@@ -15,15 +15,15 @@ $(function() {
 	SectionTwoOffset = $('#services').offset().top;
 
 		    if (scroll >= SectionOneOffset) { 
-		        $(".nav-item-1").addClass("active"); 
+		        $("li .nav-item-1").addClass("active"); 
 		    } else { 
-		        $(".nav-item-1").removeClass("active");
+		        $("li .nav-item-1").removeClass("active");
 		    }
 		    if (scroll >= SectionTwoOffset) { 
-		        $(".nav-item-2").addClass("active"); 
-			$(".nav-item-1").removeClass("active"); 
+		        $("li .nav-item-2").addClass("active"); 
+			$("li .nav-item-1").removeClass("active"); 
 		    } else { 
-		        $(".nav-item-2").removeClass("active"); 
+		        $("li .nav-item-2").removeClass("active"); 
 		    }
         
     }); 
