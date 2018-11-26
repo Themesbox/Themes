@@ -12,16 +12,16 @@ $(function() {
         } 
         
         SectionOneOffset = $('#about').offset().top, 
-		SectionTwoOffset = $('#section-two').offset().top;
+	SectionTwoOffset = $('#services').offset().top;
 
-		    if (Scroll >= SectionOneOffset) { 
+		    if (scroll >= SectionOneOffset) { 
 		        $(".nav-item-1").addClass("active"); 
 		    } else { 
 		        $(".nav-item-1").removeClass("active");
 		    }
-			if (Scroll >= SectionTwoOffset) { 
+		    if (scroll >= SectionTwoOffset) { 
 		        $(".nav-item-2").addClass("active"); 
-				$(".nav-item-1").removeClass("active"); 
+			$(".nav-item-1").removeClass("active"); 
 		    } else { 
 		        $(".nav-item-2").removeClass("active"); 
 		    }
