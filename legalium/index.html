@@ -181,7 +181,7 @@
     var scrollPos = $(document).scrollTop();
     $('a nav-link').each(function () {
         var currLink = $(this);
-        var currItem = $(this).parent('nav-item');
+        var currItem = $(this).parent(.'nav-item');
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('nav-item').removeClass("active");
