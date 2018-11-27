@@ -181,13 +181,14 @@
     var scrollPos = $(document).scrollTop();
     $('navbar-nav nav-item a').each(function () {
         var currLink = $(this);
+        var currItem = $(this.parentNode);
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('navbar-nav nav-item').removeClass("active");
-            currLink.addClass("active");
+            currItem.addClass("active");
         }
         else{
-            currLink.removeClass("active");
+            currItem.removeClass("active");
         }
     });
 }
