@@ -179,12 +179,12 @@
     <script>
       function onScroll(event){
     var scrollPos = $(document).scrollTop();
-    $('navbar-nav nav-item a').each(function () {
+    $('nav-item a').each(function () {
         var currLink = $(this);
-        var currItem = $(this.parentNode);
+        var currItem = $(this).parent('nav-item');
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('navbar-nav nav-item').removeClass("active");
+            $('nav-item').removeClass("active");
             currItem.addClass("active");
         }
         else{
