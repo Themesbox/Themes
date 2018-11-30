@@ -183,7 +183,6 @@
         var currItem = $(this).parent('.nav-item');
         var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('nav-item').removeClass("active");
             currItem.addClass("active");
             console.log('Click count:' + currItem);
         }
