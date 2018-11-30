@@ -186,9 +186,11 @@
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
             $('nav-item').removeClass("active");
             currItem.addClass("active");
+            console.log(currItem);
         }
         else{
             currItem.removeClass("active");
+            console.log(currItem);
         }
     });
 }
