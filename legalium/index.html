@@ -180,6 +180,11 @@
         target: '#mainNav',
         offset: 56
       });
+      
+      $('[data-spy="scroll"]').on('activate.bs.scrollspy', function () {
+          var active = $("li[class*='nav-item active']");
+          active.removeClass('active');
+      });
     </script>
     
     
