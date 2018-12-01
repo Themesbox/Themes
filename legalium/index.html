@@ -182,7 +182,7 @@
       });
       
       $('[data-spy="scroll"]').on('activate.bs.scrollspy', function () {
-          .scrollspy('refresh');
+          $("li[class*='nav-item active']").removeClass('active');
       });
     </script>
     
