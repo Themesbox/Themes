@@ -167,10 +167,10 @@
     
     <script>
      $('a[href*="#"]').click(function(el) {
-       var active = $("li[class*='nav-item active']");
+       var active = $("a[class*='nav-item active']");
        active.removeClass('active');
        el.preventDefault();
-       $(this.parentNode).addClass('active');
+       $(this).addClass('active');
        $("html, body").animate({ scrollTop: $($(this).attr('href')).offset().top - 56}, 600); return false;
      });
     </script>
